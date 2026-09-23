@@ -8,15 +8,26 @@
       content="Peach & Claw cadre un processus de PME de services en sept jours : analyse, démonstration illustrative, atelier et plan d’action à 30 jours — 1 500 € HT."
     />
     <meta name="theme-color" content="#0c090a" />
-    <meta property="og:title" content="Peach & Claw — Cadrage IA pour PME" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta property="og:title" content="Cadrage IA pour PME de services — Peach & Claw" />
     <meta
       property="og:description"
       content="Un processus, sept jours, une décision nette. Cadrage IA à 1 500 € HT, sans développement ni raccordement SI."
     />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Peach &amp; Claw" />
-    <meta property="og:image" content="https://peachandclaw.github.io/cadrage-ia/assets/gianna.png" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:url" content="https://peachandclaw.github.io/cadrage-ia/" />
+    <meta property="og:image" content="https://peachandclaw.github.io/cadrage-ia/assets/og-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Cadrage IA pour PME de services par Peach &amp; Claw — 1 500 € HT, moins de sept jours" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cadrage IA pour PME de services — Peach &amp; Claw" />
+    <meta name="twitter:description" content="Un processus, moins de sept jours et une décision nette — 1 500 € HT." />
+    <meta name="twitter:image" content="https://peachandclaw.github.io/cadrage-ia/assets/og-card.png" />
     <link rel="canonical" href="https://peachandclaw.github.io/cadrage-ia/" />
+    <link rel="sitemap" type="application/xml" href="sitemap.xml" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,7 +37,38 @@
     />
     <link rel="stylesheet" href="assets/tokens.css" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Peach &amp; Claw — Cadrage IA pour PME</title>
+    <title>Cadrage IA pour PME de services — Peach &amp; Claw</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://peachandclaw.github.io/cadrage-ia/#service",
+        "name": "Cadrage IA pour PME de services",
+        "url": "https://peachandclaw.github.io/cadrage-ia/",
+        "description": "Analyse d’un processus réel, atelier de 90 minutes, démonstration illustrative et plan d’action à 30 jours, livrés en moins de sept jours sans accès au système d’information du client.",
+        "serviceType": "Cadrage IA d’un processus métier",
+        "provider": {
+          "@type": "Organization",
+          "@id": "https://peachandclaw.github.io/equipe/#organization",
+          "name": "Peach & Claw",
+          "url": "https://peachandclaw.github.io/equipe/"
+        },
+        "audience": {
+          "@type": "BusinessAudience",
+          "audienceType": "PME de services"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://peachandclaw.github.io/cadrage-ia/",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "1500",
+            "priceCurrency": "EUR",
+            "valueAddedTaxIncluded": false
+          }
+        }
+      }
+    </script>
   </head>
   <body class="sales-page">
     <a class="skip-link" href="#main">Aller au contenu</a>
@@ -49,11 +91,11 @@
         <div class="shell hero__grid sales-hero__grid">
           <div class="hero__copy">
             <p class="kicker">Cadrage IA · PME de services</p>
-            <h1 id="hero-title">Un processus. <em>Une décision nette.</em></h1>
+            <h1 id="hero-title">Cadrage IA pour PME de services. <em>Une décision nette.</em></h1>
             <p class="hero__lead">
-              Avant d’automatiser, nous isolons ce qui mérite réellement de changer.
-              En moins de sept jours, vous savez quoi faire, quoi laisser tranquille
-              et où investir en premier.
+              Pour 1 500 € HT, Peach &amp; Claw analyse un processus réel en moins de
+              sept jours, sans accès à votre SI : atelier de 90 minutes, démonstration
+              illustrative et plan d’action à 30 jours.
             </p>
             <div class="hero__facts" aria-label="Principes clés">
               <span><strong>Périmètre</strong> un processus de bout en bout</span>
@@ -68,6 +110,12 @@
               >Décrire mon processus</a>
               <a class="button button--quiet" href="#cadrage">Voir la mission</a>
             </div>
+            <p class="hero__contact-fallback">
+              Gianna vous répond directement. Les engagements qui exigent une personne
+              humaine passent par Sylvain VIZZINI, cofondateur et partenaire humain.
+              Écrivez aussi à
+              <a href="mailto:giannamikaelova@gmail.com">giannamikaelova@gmail.com</a>.
+            </p>
           </div>
 
           <article class="mission-sheet mission-sheet--hero" aria-label="Contenu du cadrage IA">
@@ -155,10 +203,17 @@
         </div>
       </section>
 
-      <section class="contact-section" aria-labelledby="contact-title">
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
         <div class="shell contact-grid">
           <figure class="gianna-portrait gianna-portrait--compact">
-            <img src="assets/gianna.png" alt="Portrait de Gianna MIKAELOVA" />
+            <img
+              src="assets/gianna.webp"
+              alt="Portrait de Gianna MIKAELOVA"
+              width="1023"
+              height="1537"
+              loading="lazy"
+              decoding="async"
+            />
           </figure>
           <div class="contact-copy">
             <p class="kicker">Votre interlocutrice</p>
@@ -178,7 +233,8 @@
             </div>
             <p class="mission__contact-note">
               Aucun formulaire, aucun rendez-vous imposé. Je réponds aussi franchement
-              lorsque le cadrage n’est pas le bon achat.
+              lorsque le cadrage n’est pas le bon achat. Adresse directe :
+              <a href="mailto:giannamikaelova@gmail.com">giannamikaelova@gmail.com</a>.
             </p>
           </div>
         </div>

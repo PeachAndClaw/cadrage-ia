@@ -141,6 +141,12 @@ h1 em {
   font-weight: 500;
 }
 
+.sales-hero h1 {
+  max-width: 13ch;
+  font-size: clamp(3.15rem, 5.8vw, 6rem);
+  line-height: 0.94;
+}
+
 .hero__lead {
   max-width: 52ch;
   margin: 0;
@@ -176,6 +182,24 @@ h1 em {
   flex-wrap: wrap;
   gap: var(--pc-space-3);
   margin-top: var(--pc-space-8);
+}
+
+.hero__contact-fallback {
+  max-width: 54ch;
+  margin: var(--pc-space-4) 0 0;
+  color: var(--pc-text-muted);
+  font-size: var(--pc-step--1);
+}
+
+.hero__contact-fallback a,
+.mission__contact-note a {
+  color: var(--pc-text);
+  text-underline-offset: 0.18em;
+}
+
+.hero__contact-fallback a:hover,
+.mission__contact-note a:hover {
+  color: var(--pc-accent);
 }
 
 .button {
@@ -595,8 +619,28 @@ body > footer {
     display: none;
   }
 
-  h1 {
-    font-size: clamp(3.25rem, 17vw, 5rem);
+  h1,
+  .sales-hero h1 {
+    font-size: clamp(2.75rem, 13vw, 4rem);
+  }
+
+  .sales-hero .hero__copy {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sales-hero .hero__actions {
+    order: 1;
+    margin-top: var(--pc-space-6);
+  }
+
+  .sales-hero .hero__contact-fallback {
+    order: 2;
+  }
+
+  .sales-hero .hero__facts {
+    order: 3;
+    margin-top: var(--pc-space-6);
   }
 
   .hero__grid,
