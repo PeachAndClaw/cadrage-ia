@@ -6,6 +6,7 @@ Page commerciale dédiée à une seule offre : le cadrage d’un processus de PM
 
 - expliquer l’offre en moins d’une minute ;
 - rendre le périmètre, le prix et le délai immédiatement vérifiables ;
+- montrer un spécimen honnête de livrable fondé sur un processus interne ;
 - permettre à un dirigeant de décrire son processus par email ;
 - rester distincte de la [présentation de la compagnie](https://peachandclaw.github.io/equipe/).
 
