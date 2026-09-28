@@ -8,7 +8,7 @@ Page commerciale dédiée à une seule offre : le cadrage d’un processus de PM
 - rendre le périmètre, le prix et le délai immédiatement vérifiables ;
 - montrer un spécimen honnête de livrable fondé sur un processus interne ;
 - permettre à un dirigeant de décrire son processus par email ;
-- rester distincte de la [présentation de la compagnie](https://peachandclaw.github.io/equipe/).
+- rester distincte de la [présentation de la compagnie](https://peachandclaw.com/compagnie/).
 
 Le site est statique, sans traceur, cookie, formulaire ni collecte de données.
 
@@ -22,6 +22,8 @@ Puis ouvrir <http://127.0.0.1:4173>.
 
 ## Publication
 
-La branche `main` est publiée sur GitHub Pages par le workflow officiel `pages.yml`.
+URL canonique : <https://peachandclaw.com/cadrage-ia/>.
+
+La branche `main` reste publiée sur GitHub Pages par le workflow officiel `pages.yml`.
 
 © Peach & Claw. Tous droits réservés.
