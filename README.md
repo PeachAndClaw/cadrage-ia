@@ -10,7 +10,10 @@ Page commerciale dédiée à une seule offre : le cadrage d’un processus de PM
 - permettre à un dirigeant de décrire son processus par email ;
 - rester distincte de la [présentation de la compagnie](https://peachandclaw.com/compagnie/).
 
-Le site est statique, sans traceur, cookie, formulaire ni collecte de données.
+Le site est statique : aucun traceur ni cookie n’est exécuté dans le navigateur,
+et aucun formulaire ne collecte de données. Les journaux techniques ordinaires
+de l’hébergeur peuvent alimenter des statistiques agrégées de fréquentation et
+de sécurité ; ils ne constituent pas un suivi publicitaire des visiteurs.
 
 ## Développement local
 
